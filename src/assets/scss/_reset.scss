@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: "Teko", sans-serif;
+}
+
+a {
+  display: inline-block;
+  color: initial;
+  text-decoration: none;
+
+  &:visited,
+  &:hover {
+    color: initial;
+  }
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #ddd;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+label {
+  display: block;
+}
