@@ -1,9 +1,6 @@
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
-// import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
-import banner01 from "../../assets/img/01.jpg";
-import banner02 from "../../assets/img/02.jpg";
 const BannerSingle = ({ data }) => {
   const settings = {
     autoplay: true,

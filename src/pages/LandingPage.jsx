@@ -2,7 +2,7 @@ import Banner from "../components/Banner/Banner";
 import About from "../container/About";
 import FacultySingle from "../components/FacultySingle/FacultySingle";
 import FacilitySingle from "../components/FacilitySingle/FacilitySingle";
-import CounterSingle from "../components/FacilitySingle/FacilitySingle";
+import CounterSingle from "../components/CounterSingle/CounterSingle";
 import AlbumSingle from "../components/AlbumSingle/AlbumSingle";
 import TestimonialSingle from "../components/TestimonialSingle/TestimonialSingle";
 import Layout from "../components/Layout/Layout";

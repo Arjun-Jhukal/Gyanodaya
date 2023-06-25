@@ -3,6 +3,16 @@
   font-weight: 700;
   color: $white;
 }
+.md_heading {
+  font-size: $md_font;
+  font-weight: 700;
+  color: $orange;
+}
+.sm_heading {
+  font-size: $sm_font;
+  font-weight: 700;
+  color: $orange;
+}
 .sub__heading {
   font-size: $sm_font;
   color: $orange;
@@ -57,4 +67,8 @@
       }
     }
   }
+}
+
+.section__gap {
+  padding: 120px 0;
 }
