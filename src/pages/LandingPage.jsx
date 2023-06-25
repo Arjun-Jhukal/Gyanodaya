@@ -7,11 +7,13 @@ import AlbumSingle from "../components/AlbumSingle/AlbumSingle";
 import TestimonialSingle from "../components/TestimonialSingle/TestimonialSingle";
 import Layout from "../components/Layout/Layout";
 
+import Data from "../data.json";
+
 const LandingPage = () => {
   return (
     <main className="main">
       <Layout>
-        <Banner />
+        <Banner data={Data.banner} />
         <About />
         <FacultySingle />
         <FacilitySingle />

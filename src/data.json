@@ -1,0 +1,36 @@
+{
+  "banner": [
+    {
+      "title": "Nurturing Brilliance, Building Leaders",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.",
+      "image": "./src/assets/img/01.jpg"
+    },
+    {
+      "title": "Inspiring Excellence, Transforming Lives",
+      "brief": "Unleash your Potential at Nepal's Renowned School.",
+      "image": "./src/assets/img/02.jpg"
+    },
+    {
+      "title": "Empowering Education, Global Opportunities",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.",
+      "image": "./src/assets/img/01.jpg"
+    }
+  ],
+  "faculty": [
+    {
+      "title": "Nurturing Brilliance, Building Leaders",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.",
+      "image": "./src/assets/img/01.jpg"
+    },
+    {
+      "title": "Inspiring Excellence, Transforming Lives",
+      "brief": "Unleash your Potential at Nepal's Renowned School.",
+      "image": "./src/assets/img/02.jpg"
+    },
+    {
+      "title": "Empowering Education, Global Opportunities",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.",
+      "image": "./src/assets/img/01.jpg"
+    }
+  ]
+}

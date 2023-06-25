@@ -1,0 +1,60 @@
+.lg__heading {
+  font-size: $lg_font;
+  font-weight: 700;
+  color: $white;
+}
+.sub__heading {
+  font-size: $sm_font;
+  color: $orange;
+}
+
+.btn__group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  padding-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  @include transition(ease);
+
+  &__1 {
+    background-color: $orange;
+    color: $white;
+
+    &:hover {
+      border: 1px solid $orange;
+      color: $orange;
+    }
+  }
+  &__2 {
+    background-color: $ddd;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: -10px;
+      top: 0;
+      height: 100%;
+      width: 0%;
+      background-color: $orange;
+      z-index: -1;
+      @include transition(0.3s);
+    }
+
+    &:hover {
+      color: $white;
+      border-color: $orange;
+      &::before {
+        width: 120%;
+      }
+    }
+  }
+}

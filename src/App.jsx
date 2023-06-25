@@ -6,6 +6,7 @@ import BlogPage from "./pages/BlogPage";
 import BlogDetailPage from "./pages/BlogDetailPage";
 import ProgramDetailPage from "./pages/BlogDetailPage";
 import GalleryPage from "./pages/GalleryPage";
+import ContactPage from "./pages/ContactPage";
 const App = () => {
   return (
     <Router>
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/blog/:id" element={<BlogDetailPage />} />
         <Route path="/faculty" element={<ProgramDetailPage />} />
         <Route path="/album" element={<GalleryPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Router>
   );
