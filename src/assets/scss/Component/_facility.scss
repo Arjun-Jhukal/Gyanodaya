@@ -4,6 +4,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  .section__title {
+    margin-bottom: 80px;
+  }
+
   &__item {
     border: 1px solid $ddd;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -11,6 +15,7 @@
     padding: 50px 15px 15px;
     position: relative;
     z-index: 1;
+    margin-bottom: 80px;
 
     &__icon {
       position: absolute;
@@ -18,13 +23,19 @@
       left: 50%;
       transform: translateX(-50%);
       background-color: $orange;
-      width: 80px;
-      height: 80px;
-      padding: 15px;
       border-radius: 50%;
       color: $white;
       display: grid;
       place-items: center;
+      overflow: hidden;
+
+      img {
+        width: 80px;
+        height: 80px;
+        max-height: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
     }
 
     p {

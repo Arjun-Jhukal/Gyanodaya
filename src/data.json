@@ -1,4 +1,25 @@
 {
+  "navbar": [
+    {
+      "item": "Home"
+    },
+    {
+      "item": "About Us",
+      "subItem": ["Management Team", "Administrative Team", "Teaching Staffs", "Message from CEO"]
+    },
+    {
+      "item": "Notices"
+    },
+    {
+      "item": "News"
+    },
+    {
+      "item": "Gallery"
+    },
+    {
+      "item": "Contact Us"
+    }
+  ],
   "banner": [
     {
       "title": "Nurturing Brilliance, Building Leaders",
@@ -18,19 +39,138 @@
   ],
   "faculty": [
     {
-      "title": "Nurturing Brilliance, Building Leaders",
-      "brief": "Discover the Path to Success at Nepal's Esteemed School.",
-      "image": "./src/assets/img/04.jpg"
-    },
-    {
-      "title": "Inspiring Excellence, Transforming Lives",
-      "brief": "Unleash your Potential at Nepal's Renowned School.",
+      "title": "SEE",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
       "image": "./src/assets/img/02.jpg"
     },
     {
-      "title": "Empowering Education, Global Opportunities",
-      "brief": "Discover the Path to Success at Nepal's Esteemed School.",
+      "title": "Higher Secondary [+2]",
+      "brief": "Unleash your Potential at Nepal's Renowned School.Unleash your Potential at Nepal's Renowned School.Unleash your Potential at Nepal's Renowned School.",
+      "image": "./src/assets/img/03.jpg"
+    },
+    {
+      "title": "BSc. AG",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "image": "./src/assets/img/04.jpg"
+    },
+    {
+      "title": "Arts",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "image": "./src/assets/img/05.jpg"
+    },
+    {
+      "title": "Education",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "image": "./src/assets/img/09.jpg"
+    }
+  ],
+  "facility": [
+    {
+      "title": "Transportation",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "image": "./src/assets/img/09.jpg"
+    },
+    {
+      "title": "Greate view",
+      "brief": "Unleash your Potential at Nepal's Renowned School.Unleash your Potential at Nepal's Renowned School.Unleash your Potential at Nepal's Renowned School.",
+      "image": "./src/assets/img/10.jpg"
+    },
+    {
+      "title": "Extra Classes",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "image": "./src/assets/img/11.jpg"
+    },
+    {
+      "title": "Sport Week",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "image": "./src/assets/img/12.jpg"
+    },
+    {
+      "title": "No Book Friday",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "image": "./src/assets/img/13.jpg"
+    }
+  ],
+
+  "counter": [
+    {
+      "title": "Enrolled Students",
+      "value": "9,529"
+    },
+    {
+      "title": "Team Member",
+      "value": "19"
+    },
+    {
+      "title": "Years",
+      "value": "30"
+    },
+    {
+      "title": "Fee",
+      "value": "10,000"
+    }
+  ],
+
+  "albums": [
+    {
+      "title": "Album 01",
+      "brief": "Unleash your Potential at Nepal's Renowned School.",
+      "image": "./src/assets/img/15.jpg"
+    },
+    {
+      "title": "Album 01",
+      "brief": "Unleash your Potential at Nepal's Renowned School.",
+      "image": "./src/assets/img/16.jpg"
+    },
+    {
+      "title": "Album 01",
+      "brief": "Unleash your Potential at Nepal's Renowned School.",
+      "image": "./src/assets/img/17.jpg"
+    },
+    {
+      "title": "Album 01",
+      "brief": "Unleash your Potential at Nepal's Renowned School.",
+      "image": "./src/assets/img/18.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae, obcaecati, enim, error eaque blanditiis nobis voluptas officia iusto mollitia quasi. At aperiam quas dolores nemo impedit, earum doloremque obcaecati",
+      "name": "Arjun Jhukal",
+      "post": "Parent",
       "image": "./src/assets/img/01.jpg"
+    },
+    {
+      "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae, obcaecati, enim, error eaque blanditiis nobis voluptas officia iusto mollitia quasi. At aperiam quas dolores nemo impedit, earum doloremque obcaecati",
+      "name": "Arjun Jhukal",
+      "post": "Student",
+      "image": "./src/assets/img/01.jpg"
+    },
+    {
+      "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae, obcaecati, enim, error eaque blanditiis nobis voluptas officia iusto mollitia quasi. At aperiam quas dolores nemo impedit, earum doloremque obcaecati",
+      "name": "Arjun Jhukal",
+      "post": "Student",
+      "image": "./src/assets/img/01.jpg"
+    },
+    {
+      "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae, obcaecati, enim, error eaque blanditiis nobis voluptas officia iusto mollitia quasi. At aperiam quas dolores nemo impedit, earum doloremque obcaecati",
+      "name": "Arjun Jhukal",
+      "post": "Parent",
+      "image": "./src/assets/img/01.jpg"
+    }
+  ],
+  "footerNav": [
+    {
+      "title": "Quick Links",
+      "links": ["About Us", "Contact Us", "Blogs", "Courses", "Notice"]
+    },
+    {
+      "title": "Useful Links",
+      "links": ["Notices", "FAQ", "Results", "Courses", "Notice"]
+    },
+    {
+      "title": "Privacy Policy",
+      "links": ["Privacy Policy", "Terms and Conditions"]
     }
   ]
 }

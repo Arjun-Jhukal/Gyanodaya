@@ -1,19 +1,35 @@
-import faculty01 from "../../assets/img/03.jpg";
-const FacultySingle = () => {
+import { Link } from "react-router-dom";
+import SectionTitle from "../SectionTitle/SectionTitle";
+const FacultySingle = ({ data }) => {
   return (
-    <div className="faculty section__gap">
+    <div className="faculty__two pt-120">
       <div className="container">
+        <SectionTitle subTitle={"Our Courses"} title={"Explore Our Programs"} />
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-12">
-            <div className="faculty__item">
-              <img src={faculty01} alt="" />
+          {data.map((item, index) => {
+            return (
+              <div className="col-lg-4  col-12" key={index}>
+                <div className="faculty__two__item">
+                  <div className="faculty__two__image">
+                    <img src={item.image} alt="" />
+                  </div>
 
-              <div className="faculty__item__text">
-                <h1 className="md_heading">BSc.CSIT</h1>
-                <span>Tribhuwan University</span>
+                  <div className="faculty__two__text">
+                    <Link to={"/"} className={"sm_heading text-center d-block"}>
+                      {item.title}
+                    </Link>
+                    <p>{item.brief}</p>
+                  </div>
+
+                  <div className="faculty__two__btn">
+                    <Link to={"/"} className="btn btn__2">
+                      Read More
+                    </Link>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+            );
+          })}
         </div>
       </div>
     </div>

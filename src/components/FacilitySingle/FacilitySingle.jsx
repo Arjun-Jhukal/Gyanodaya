@@ -1,27 +1,29 @@
-import { FiBookOpen } from "react-icons/fi";
 import { Link } from "react-router-dom";
-const FacilitySingle = () => {
+import SectionTitle from "../SectionTitle/SectionTitle";
+const FacilitySingle = ({ data }) => {
   return (
-    <section className="facility section__gap">
+    <section className="facility ">
       <div className="container">
+        <SectionTitle subTitle={"Our Facility"} title={"Why Gyanodaya ?"} />
         <div className="row">
-          <div className="col-lg-4">
-            <div className="facility__item">
-              <div className="facility__item__icon">
-                <FiBookOpen size={40} />
-              </div>
-              <Link to={"/facility"} className="sm_heading ">
-                Transportation
-              </Link>
+          {data.map((item, index) => {
+            return (
+              <div className="col-lg-4" key={index}>
+                <div className="facility__item">
+                  <div className="facility__item__icon">
+                    <img src={item.image} alt="" />
+                  </div>
+                  <Link to={"/facility"} className="sm_heading ">
+                    {item.title}
+                  </Link>
 
-              <div className="facility__brief">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, vel dignissimos repellat esse at dolorem accusamus perferendis
-                  minima harum velit, beatae officiis recusandae sit? Sapiente, reiciendis? Quo delectus culpa similique?
-                </p>
+                  <div className="facility__brief">
+                    <p>{item.brief}</p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+            );
+          })}
         </div>
       </div>
     </section>

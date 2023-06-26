@@ -1,16 +1,20 @@
 .lg__heading {
   font-size: $lg_font;
   font-weight: 700;
-  color: $white;
+  color: $white !important;
 }
 .md_heading {
   font-size: $md_font;
   font-weight: 700;
-  color: $orange;
+  color: $orange !important;
 }
 .sm_heading {
   font-size: $sm_font;
   font-weight: 700;
+  color: $orange !important;
+}
+.footer__title {
+  font-size: $sm_font;
   color: $orange;
 }
 .sub__heading {
@@ -67,8 +71,42 @@
       }
     }
   }
+  &__3 {
+    background-color: $orange;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $orange !important;
+    }
+  }
 }
 
 .section__gap {
-  padding: 120px 0;
+  padding: 80px 0;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.section__title {
+  text-align: center;
+  margin-bottom: 50px;
+
+  span {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    &::after {
+      content: "";
+      display: block;
+
+      height: 2px;
+      background-color: $blue;
+      width: 10%;
+      margin: 0 auto;
+    }
+  }
 }

@@ -1,12 +1,10 @@
 import Topbar from "./Topbar/Topbar";
 import Navbar from "./Navbar/Navbar";
-const Header = () => {
+const Header = ({ data }) => {
   return (
     <header className="header">
-      <div className="container-fluid">
-        <Topbar />
-        <Navbar />
-      </div>
+      <Topbar />
+      <Navbar data={data} />
     </header>
   );
 };

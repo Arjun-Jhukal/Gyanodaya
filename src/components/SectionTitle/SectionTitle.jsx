@@ -1,7 +1,8 @@
-const SectionTitle = () => {
+const SectionTitle = ({ title, subTitle, classlight }) => {
   return (
-    <div>
-      <p>Section Title</p>
+    <div className="section__title">
+      <span>{subTitle}</span>
+      <h1 className="md_heading">{title}</h1>
     </div>
   );
 };

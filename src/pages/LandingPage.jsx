@@ -15,11 +15,11 @@ const LandingPage = () => {
       <Layout>
         <Banner data={Data.banner} />
         <About />
-        <FacultySingle />
-        <FacilitySingle />
-        <CounterSingle />
-        <AlbumSingle />
-        <TestimonialSingle />
+        <FacultySingle data={Data.faculty} />
+        <FacilitySingle data={Data.facility} />
+        <CounterSingle data={Data.counter} />
+        <AlbumSingle data={Data.albums} />
+        <TestimonialSingle data={Data.testimonials} />
       </Layout>
     </main>
   );

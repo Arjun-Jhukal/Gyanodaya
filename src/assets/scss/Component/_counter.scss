@@ -1,0 +1,51 @@
+.counter {
+  .section__title {
+    span {
+      color: $white;
+      &::after {
+        background-color: $white;
+      }
+    }
+  }
+  &__item {
+    color: $orange;
+    text-align: center;
+
+    .lg__heading {
+      font-size: 100px;
+      margin-bottom: -5px;
+
+      &.large {
+        &::after {
+          content: "K";
+          display: inline-block;
+          margin-left: 10px;
+        }
+      }
+
+      &::after {
+        content: "+";
+        display: inline-block;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .counter {
+    padding: 80px 0;
+    height: auto !important;
+  }
+}
+@media (max-width: 600px) {
+  .counter {
+    .row {
+      > div {
+        &:not(:last-child) {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
