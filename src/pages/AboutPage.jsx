@@ -1,10 +1,10 @@
+import Layout from "../components/Layout/Layout";
+import About from "../container/About";
 const AboutPage = () => {
   return (
-    <section className="program__detail">
-      <div className="container">
-        <p>About Page</p>
-      </div>
-    </section>
+    <Layout>
+      <About />
+    </Layout>
   );
 };
 

@@ -1,12 +1,10 @@
-import React from "react";
+import Layout from "../components/Layout/Layout";
 
 const GalleryPage = () => {
   return (
-    <section className="program__detail">
-      <div className="container">
-        <p>Gallery Page</p>
-      </div>
-    </section>
+    <Layout>
+      <p>Gallery </p>
+    </Layout>
   );
 };
 

@@ -1,6 +1,8 @@
 import Topbar from "./Topbar/Topbar";
 import Navbar from "./Navbar/Navbar";
+
 const Header = ({ data }) => {
+  // console.log(data);
   return (
     <header className="header">
       <Topbar />

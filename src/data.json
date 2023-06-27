@@ -1,23 +1,46 @@
 {
   "navbar": [
     {
-      "item": "Home"
+      "item": "Home",
+      "link": "/"
     },
     {
       "item": "About Us",
-      "subItem": ["Management Team", "Administrative Team", "Teaching Staffs", "Message from CEO"]
+      "link": "/",
+      "subItem": [
+        {
+          "item": "Management Team",
+          "link": "/team"
+        },
+        {
+          "item": "Administrative Team",
+          "link": "/team"
+        },
+        {
+          "item": "Teaching Staffs",
+          "link": "/team"
+        },
+        {
+          "item": "Message from CEO",
+          "link": "/about"
+        }
+      ]
     },
     {
-      "item": "Notices"
+      "item": "Notices",
+      "link": "/notices"
     },
     {
-      "item": "News"
+      "item": "News",
+      "link": "/blog"
     },
     {
-      "item": "Gallery"
+      "item": "Gallery",
+      "link": "/album"
     },
     {
-      "item": "Contact Us"
+      "item": "Contact Us",
+      "link": "/contact"
     }
   ],
   "banner": [
@@ -138,25 +161,25 @@
       "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae, obcaecati, enim, error eaque blanditiis nobis voluptas officia iusto mollitia quasi. At aperiam quas dolores nemo impedit, earum doloremque obcaecati",
       "name": "Arjun Jhukal",
       "post": "Parent",
-      "image": "./src/assets/img/01.jpg"
+      "image": "./src/assets/img/05.jpg"
     },
     {
       "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae, obcaecati, enim, error eaque blanditiis nobis voluptas officia iusto mollitia quasi. At aperiam quas dolores nemo impedit, earum doloremque obcaecati",
       "name": "Arjun Jhukal",
       "post": "Student",
-      "image": "./src/assets/img/01.jpg"
+      "image": "./src/assets/img/07.jpg"
     },
     {
       "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae, obcaecati, enim, error eaque blanditiis nobis voluptas officia iusto mollitia quasi. At aperiam quas dolores nemo impedit, earum doloremque obcaecati",
       "name": "Arjun Jhukal",
       "post": "Student",
-      "image": "./src/assets/img/01.jpg"
+      "image": "./src/assets/img/08.jpg"
     },
     {
       "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae, obcaecati, enim, error eaque blanditiis nobis voluptas officia iusto mollitia quasi. At aperiam quas dolores nemo impedit, earum doloremque obcaecati",
       "name": "Arjun Jhukal",
       "post": "Parent",
-      "image": "./src/assets/img/01.jpg"
+      "image": "./src/assets/img/09.jpg"
     }
   ],
   "footerNav": [

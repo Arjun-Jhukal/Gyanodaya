@@ -1,10 +1,8 @@
 const ProgramDetailPage = () => {
   return (
-    <section className="program__detail">
-      <div className="container">
-        <p>Blog Detail</p>
-      </div>
-    </section>
+    <Layout>
+      <p>Blog Detail</p>
+    </Layout>
   );
 };
 

@@ -1,12 +1,12 @@
-import React from "react";
+import Layout from "../components/Layout/Layout";
+import AlbumSingle from "../components/AlbumSingle/AlbumSingle";
+import Data from "../data.json";
 
 const AlbumPage = () => {
   return (
-    <section className="program__detail">
-      <div className="container">
-        <p>Album Page</p>
-      </div>
-    </section>
+    <Layout>
+      <AlbumSingle data={Data.albums} />
+    </Layout>
   );
 };
 

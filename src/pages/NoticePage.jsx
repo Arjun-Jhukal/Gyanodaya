@@ -1,12 +1,12 @@
 import React from "react";
+import Layout from "../components/Layout/Layout";
+import NoticeSingle from "../components/NoticeSingle/NoticeSingle";
 
 const NoticePage = () => {
   return (
-    <section className="program__detail">
-      <div className="container">
-        <p>Notice Page</p>
-      </div>
-    </section>
+    <Layout>
+      <NoticeSingle />
+    </Layout>
   );
 };
 

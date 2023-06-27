@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import SectionTitle from "../SectionTitle/SectionTitle";
 const FacilitySingle = ({ data }) => {
   return (
-    <section className="facility ">
+    <section className="facility pt-120 ">
       <div className="container">
         <SectionTitle subTitle={"Our Facility"} title={"Why Gyanodaya ?"} />
         <div className="row">

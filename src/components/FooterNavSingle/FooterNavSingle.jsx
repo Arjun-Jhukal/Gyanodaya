@@ -2,9 +2,11 @@ import { FiPhoneCall } from "react-icons/fi";
 import { FaLocationArrow, FaEnvelopeOpenText } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.png";
+import ContactBox from "../ContactBox/ContactBox";
 const FooterNavSingle = ({ data }) => {
   return (
     <footer className="footer ">
+      <ContactBox />
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-lg-3 col-md-6 col-12">
@@ -35,7 +37,7 @@ const FooterNavSingle = ({ data }) => {
               <div className="col-lg-2 col-md-6 col-12" key={index}>
                 <h1 className="footer__title">{item.title}</h1>
                 <ul>
-                  {item.links.map((link) => {
+                  {item.links.map((link, index) => {
                     return (
                       <li key={index}>
                         <Link to={"/"}>{link}</Link>
