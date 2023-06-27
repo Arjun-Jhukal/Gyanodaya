@@ -106,11 +106,13 @@
 
     button {
       border: none;
+      color: $white;
 
       &.close__btn {
         position: absolute;
         top: 50px;
         right: 50px;
+        color: $orange;
       }
     }
   }
@@ -132,6 +134,7 @@
 }
 @media (max-width: 768px) {
   .header {
+    background-color: $blue;
     .menu {
       &__items {
         position: fixed;
@@ -145,11 +148,13 @@
         max-width: 450px;
         align-items: flex-start;
         justify-content: center;
-
+        transform: translateX(-100%);
         opacity: 0;
         visibility: hidden;
+        @include transition(0.3s);
+        overflow-y: scroll;
 
-        li {
+        > li {
           border-bottom: 1px solid #ddd;
           display: block;
           width: 100%;
@@ -174,6 +179,7 @@
         &.active {
           opacity: 1;
           visibility: visible;
+          transform: translateX(0);
         }
       }
     }

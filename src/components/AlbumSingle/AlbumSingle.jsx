@@ -1,4 +1,3 @@
-import album01 from "../../assets/img/01.jpg";
 import { Link } from "react-router-dom";
 import SectionTitle from "../SectionTitle/SectionTitle";
 const AlbumSingle = ({ data }) => {
@@ -31,7 +30,7 @@ const AlbumSingle = ({ data }) => {
                   <img src={item.image} alt="" />
 
                   <div className="faculty__item__text">
-                    <Link to={"/"} className="md_heading">
+                    <Link to={`/album/${item.title}`} className="md_heading">
                       {item.title}
                     </Link>
                     <span>{item.brief}</span>

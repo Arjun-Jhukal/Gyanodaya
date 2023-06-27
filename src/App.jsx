@@ -9,6 +9,7 @@ import ProgramDetailPage from "./pages/BlogDetailPage";
 import ContactPage from "./pages/ContactPage";
 import TeamPage from "./pages/TeamPage";
 import AlbumPage from "./pages/AlbumPage";
+import GalleryPage from "./pages/GalleryPage";
 const App = () => {
   return (
     <Router>
@@ -21,8 +22,7 @@ const App = () => {
         <Route path="/blog/:id" element={<BlogDetailPage />} />
         <Route path="/faculty" element={<ProgramDetailPage />} />
         <Route path="/album" element={<AlbumPage />} />
-        <Route path="/album/:id" element={<AlbumPage />} />
-        <Route path="/team" element={<TeamPage />} />
+        <Route path="/album/:id" element={<GalleryPage />} />
         <Route path="/team/:id" element={<TeamPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>

@@ -102,11 +102,68 @@
     &::after {
       content: "";
       display: block;
-
       height: 2px;
       background-color: $blue;
       width: 10%;
       margin: 0 auto;
     }
+  }
+}
+
+@media (min-width: 992px) {
+  .mb-60 {
+    margin-bottom: 60px;
+  }
+}
+
+.gallery {
+  .row {
+    > div {
+      margin-bottom: 30px;
+      height: 250px;
+
+      img {
+        filter: grayscale(100%);
+      }
+
+      &:hover {
+        img {
+          filter: grayscale(0);
+        }
+      }
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 120px;
+
+  li {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $ddd;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+
+    &.disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+    &.active {
+      background-color: $blue;
+      color: $white;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .pagination {
+    margin-bottom: 0;
   }
 }

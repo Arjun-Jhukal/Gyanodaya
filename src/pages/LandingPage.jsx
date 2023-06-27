@@ -11,6 +11,7 @@ import Data from "../data.json";
 import TeamSingle from "../components/TeamSingle/TeamSingle";
 import NoticeSingle from "../components/NoticeSingle/NoticeSingle";
 import Popup from "../components/Popup/Popup";
+import BlogSingle from "../components/BlogSingle/BlogSingle";
 
 const LandingPage = () => {
   return (
@@ -23,6 +24,7 @@ const LandingPage = () => {
         <CounterSingle data={Data.counter} />
         <AlbumSingle data={Data.albums} />
         <TestimonialSingle data={Data.testimonials} />
+        <BlogSingle />
         <Popup />
       </Layout>
     </main>
