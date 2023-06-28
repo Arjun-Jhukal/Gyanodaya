@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import bannerImage from "../../assets/img/05.jpg";
 import SectionTitle from "../SectionTitle/SectionTitle";
 const CounterSingle = ({ data }) => {
@@ -15,6 +15,21 @@ const CounterSingle = ({ data }) => {
 
   const [large, setLarge] = useState(false);
 
+  useEffect(() => {
+    // Check if any value in the data array is >= 1000
+    const checkLargeValue = () => {
+      for (let item of data) {
+        if (parseInt(item.value) >= 1000) {
+          setLarge(true);
+          return;
+        }
+      }
+      setLarge(false); // Reset to false if no value is >= 1000
+    };
+
+    checkLargeValue();
+  }, [data]);
+
   return (
     <div className="counter" style={counterStyle}>
       <div className="container">
@@ -22,19 +37,15 @@ const CounterSingle = ({ data }) => {
         <div className="row">
           {data.map((item, index) => {
             let value = parseInt(item.value);
-            let updatedValue = 0;
-
+            let updatedValue = value;
             if (value >= 1000) {
-              updatedValue = value / 1000;
-              setLarge(true);
-            } else {
-              updatedValue = value;
+              updatedValue = (value / 1000).toFixed(2);
             }
 
             return (
               <div className="col-lg-3 col-md-6 col-sm-6 col-12" key={index}>
                 <div className="counter__item">
-                  <h1 className={large ? "large lg__heading" : "lg__heading"}>{updatedValue}</h1>
+                  <h1 className={large ? " lg__heading large" : "lg__heading"}>{updatedValue}</h1>
                   <span className="sm_heading">{item.title}</span>
                 </div>
               </div>

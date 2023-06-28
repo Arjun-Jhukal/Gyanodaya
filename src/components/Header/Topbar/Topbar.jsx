@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaPhone, FaEnvelopeOpenText } from "react-icons/fa";
+
 const Topbar = () => {
   return (
     <div className="topbar d-none d-md-block">
@@ -20,14 +21,14 @@ const Topbar = () => {
           <div className="col-6">
             <ul>
               <li>
-                <Link to={"/"} className="btn btn__3">
+                <button type="button" className="btn btn__3">
                   Suggestion
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to={"/"} className="btn btn__3">
+                <button type="button" className="btn btn__3">
                   Inquiry
-                </Link>
+                </button>
               </li>
             </ul>
           </div>

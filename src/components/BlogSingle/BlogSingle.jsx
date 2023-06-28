@@ -6,7 +6,7 @@ import blog from "../../assets/img/19.jpg";
 import { useState } from "react";
 const BlogSingle = () => {
   const [likeStatus, setLikeStatus] = useState(false);
-  const totalItems = Array.from({ length: 15 });
+  const totalItems = Array.from({ length: 3 });
   return (
     <div className="blog ">
       <div className="container">

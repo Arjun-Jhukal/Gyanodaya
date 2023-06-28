@@ -1,0 +1,42 @@
+.enquiry {
+  &.active {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    @include transition(0.3s);
+
+    .close__btn {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: auto;
+      background-color: $orange;
+      color: $white;
+    }
+  }
+
+  .close__btn {
+    display: none;
+  }
+
+  &__form {
+    background-color: $white;
+    max-width: 650px;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    .row {
+      > div {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

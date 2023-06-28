@@ -1,11 +1,8 @@
 .notice {
   &__item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 30px;
     border: 1px solid $ddd;
-
+    text-align: center;
+    padding: 15px 0;
     &:not(:last-child) {
       margin-bottom: 30px;
     }
@@ -16,5 +13,25 @@
   }
   &__text {
     flex-basis: 75%;
+
+    span {
+      display: block;
+    }
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+.date {
+  &::before {
+    content: "\f073";
+    font-family: "fontAwesome";
+    display: inline-block;
+    margin-right: 8px;
+    color: $orange;
   }
 }
