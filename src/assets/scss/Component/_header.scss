@@ -68,6 +68,7 @@
               opacity: 1;
               visibility: visible;
               transform: translateY(0);
+              display: block;
             }
 
             li {
@@ -121,8 +122,8 @@
         position: fixed;
         top: 0;
         left: 0;
-        width: 300px;
-        max-width: 300px;
+        width: 350px;
+        max-width: 380px;
         height: 100vh;
         overflow-y: scroll;
         background-color: $white;
@@ -132,15 +133,32 @@
         padding-top: 120px;
         z-index: 999;
         gap: 30px;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-100%);
+        @include transition(0.5s);
         li {
+          display: block;
+          width: 90%;
+
           &.has_child {
             .dropdown__items {
               position: initial;
+              visibility: visible;
+              opacity: 1;
+              transform: translateY(0);
+              display: none;
             }
             &::after {
-              top: 0;
+              top: 15px;
             }
           }
+        }
+
+        &.active {
+          opacity: 1;
+          visibility: visible;
+          transform: translateX(0);
         }
 
         .btn__close {
@@ -149,8 +167,13 @@
           right: 0;
           width: 40px;
           height: 40px;
+          color: #000;
         }
       }
+    }
+    button {
+      color: $white;
+      border: none;
     }
   }
 }

@@ -8,7 +8,7 @@ import TestimonialSingle from "../components/TestimonialSingle/TestimonialSingle
 import Layout from "../components/Layout/Layout";
 
 import Data from "../data.json";
-import TeamSingle from "../components/TeamSingle/TeamSingle";
+
 import NoticeSingle from "../components/NoticeSingle/NoticeSingle";
 import Popup from "../components/Popup/Popup";
 import BlogSingle from "../components/BlogSingle/BlogSingle";
@@ -19,12 +19,14 @@ const LandingPage = () => {
       <Layout>
         <Banner data={Data.banner} />
         <About />
-        <FacultySingle data={Data.faculty} />
-        <FacilitySingle data={Data.facility} />
+        <FacultySingle data={Data.faculty} sectionTitle={true} />
+        <FacilitySingle data={Data.facility} sectionTitle={true} />
         <CounterSingle data={Data.counter} />
-        <AlbumSingle data={Data.albums} />
+        <NoticeSingle data={Data.notices} sliceValue={6} sectionTitle={true} pagination={false} />
+        <AlbumSingle data={Data.albums} sliceValue={4} sectionTitle={true} />
         <TestimonialSingle data={Data.testimonials} />
-        <BlogSingle />
+        <BlogSingle data={Data.blog} sliceValue={3} sectionTitle={true} />
+
         <Popup />
       </Layout>
     </main>

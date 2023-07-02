@@ -6,7 +6,7 @@
     },
     {
       "item": "About Us",
-      "link": "/",
+      "link": "",
       "subItem": [
         {
           "item": "Management Team",
@@ -43,6 +43,7 @@
       "link": "/contact"
     }
   ],
+
   "banner": [
     {
       "title": "Nurturing Brilliance, Building Leaders",
@@ -60,6 +61,7 @@
       "image": "./src/assets/img/03.jpg"
     }
   ],
+
   "faculty": [
     {
       "title": "SEE",
@@ -87,6 +89,7 @@
       "image": "./src/assets/img/09.jpg"
     }
   ],
+
   "facility": [
     {
       "title": "Transportation",
@@ -156,6 +159,7 @@
       "image": "./src/assets/img/18.jpg"
     }
   ],
+
   "testimonials": [
     {
       "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae, obcaecati, enim, error eaque blanditiis nobis voluptas officia iusto mollitia quasi. At aperiam quas dolores nemo impedit, earum doloremque obcaecati",
@@ -180,6 +184,143 @@
       "name": "Arjun Jhukal",
       "post": "Parent",
       "image": "./src/assets/img/09.jpg"
+    }
+  ],
+  "blog": [
+    {
+      "title": "Empowering Education, Global Opportunities",
+      "date": "2023-04-05",
+      "image": "../../src/assets/img/15.jpg",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "quote": "Empowering Discover Lorem",
+      "subTitle": "Empowering Education, Global Opportunities",
+      "brief_02": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "subTitle_01": "Empowering Education, Global Opportunities",
+      "list": ["Empowering", "Empowering", "Empowering"]
+    },
+    {
+      "title": "Empowering Education, Global Opportunities",
+      "date": "2023-04-05",
+      "image": "../../src/assets/img/15.jpg",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "quote": "Empowering Discover Lorem",
+      "subHeading": "Empowering Education, Global Opportunities",
+      "brief_02": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "subHeading_01": "Empowering Education, Global Opportunities",
+      "list": ["Empowering", "Empowering", "Empowering"]
+    },
+    {
+      "title": "Empowering Education, Global Opportunities",
+      "date": "2023-04-05",
+      "image": "../../src/assets/img/15.jpg",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "quote": "Empowering Discover Lorem",
+      "subHeading": "Empowering Education, Global Opportunities",
+      "brief_02": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "subHeading_01": "Empowering Education, Global Opportunities",
+      "list": ["Empowering", "Empowering", "Empowering"]
+    },
+    {
+      "title": "Empowering Education, Global Opportunities",
+      "date": "2023-04-05",
+      "image": "../../src/assets/img/15.jpg",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "quote": "Empowering Discover Lorem",
+      "subHeading": "Empowering Education, Global Opportunities",
+      "brief_02": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "subHeading_01": "Empowering Education, Global Opportunities",
+      "list": ["Empowering", "Empowering", "Empowering"]
+    },
+    {
+      "title": "Empowering Education, Global Opportunities",
+      "date": "2023-04-05",
+      "image": "../../src/assets/img/15.jpg",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "quote": "Empowering Discover Lorem",
+      "subHeading": "Empowering Education, Global Opportunities",
+      "brief_02": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "subHeading_01": "Empowering Education, Global Opportunities",
+      "list": ["Empowering", "Empowering", "Empowering"]
+    },
+    {
+      "title": "Empowering Education, Global Opportunities",
+      "date": "2023-04-05",
+      "image": "../../src/assets/img/15.jpg",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "quote": "Empowering Discover Lorem",
+      "subHeading": "Empowering Education, Global Opportunities",
+      "brief_02": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "subHeading_01": "Empowering Education, Global Opportunities",
+      "list": ["Empowering", "Empowering", "Empowering"]
+    },
+    {
+      "title": "Empowering Education, Global Opportunities",
+      "date": "2023-04-05",
+      "image": "../../src/assets/img/15.jpg",
+      "brief": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "quote": "Empowering Discover Lorem",
+      "subHeading": "Empowering Education, Global Opportunities",
+      "brief_02": "Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.Discover the Path to Success at Nepal's Esteemed School.",
+      "subHeading_01": "Empowering Education, Global Opportunities",
+      "list": ["Empowering", "Empowering", "Empowering"]
+    }
+  ],
+  "notices": [
+    {
+      "title": "Inspiring Excellence, Transforming Lives",
+      "image": "../../src/assets/img/15.jpg",
+      "download": "true",
+      "date": "2023-04-05",
+      "brief": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni mollitia exercitationem quis illum minima tempore totam neque dolores corrupti aut voluptates sapiente unde odio fuga, sed harum animi, natus accusantium!"
+    },
+    {
+      "title": "Inspiring Excellence, Transforming Lives",
+      "image": "../../src/assets/img/15.jpg",
+      "download": false,
+      "date": "2023-04-05",
+      "brief": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni mollitia exercitationem quis illum minima tempore totam neque dolores corrupti aut voluptates sapiente unde odio fuga, sed harum animi, natus accusantium!"
+    },
+    {
+      "title": "Inspiring Excellence, Transforming Lives",
+      "image": "../../src/assets/img/15.jpg",
+      "download": "true",
+      "date": "2023-04-05",
+      "brief": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni mollitia exercitationem quis illum minima tempore totam neque dolores corrupti aut voluptates sapiente unde odio fuga, sed harum animi, natus accusantium!"
+    },
+    {
+      "title": "Inspiring Excellence, Transforming Lives",
+      "image": "../../src/assets/img/15.jpg",
+      "download": "true",
+      "date": "2023-04-05",
+      "brief": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni mollitia exercitationem quis illum minima tempore totam neque dolores corrupti aut voluptates sapiente unde odio fuga, sed harum animi, natus accusantium!"
+    },
+    {
+      "title": "Inspiring Excellence, Transforming Lives",
+      "image": "../../src/assets/img/15.jpg",
+      "download": "true",
+      "date": "2023-04-05",
+      "brief": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni mollitia exercitationem quis illum minima tempore totam neque dolores corrupti aut voluptates sapiente unde odio fuga, sed harum animi, natus accusantium!"
+    },
+    {
+      "title": "Inspiring Excellence, Transforming Lives",
+      "image": "../../src/assets/img/15.jpg",
+      "download": "true",
+      "date": "2023-04-05",
+      "brief": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni mollitia exercitationem quis illum minima tempore totam neque dolores corrupti aut voluptates sapiente unde odio fuga, sed harum animi, natus accusantium!"
+    },
+    {
+      "title": "Inspiring Excellence, Transforming Lives",
+      "image": "../../src/assets/img/15.jpg",
+      "download": "true",
+      "date": "2023-04-05",
+      "brief": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni mollitia exercitationem quis illum minima tempore totam neque dolores corrupti aut voluptates sapiente unde odio fuga, sed harum animi, natus accusantium!"
+    },
+    {
+      "title": "Inspiring Excellence, Transforming Lives",
+      "image": "../../src/assets/img/15.jpg",
+      "download": "true",
+      "date": "2023-04-05",
+      "brief": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni mollitia exercitationem quis illum minima tempore totam neque dolores corrupti aut voluptates sapiente unde odio fuga, sed harum animi, natus accusantium!"
     }
   ],
   "footerNav": [

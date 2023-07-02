@@ -6,7 +6,7 @@ import Pagination from "../components/Pagination/Pagination";
 const AlbumPage = () => {
   return (
     <Layout>
-      <AlbumSingle data={Data.albums} />
+      <AlbumSingle data={Data.albums} sliceValue={8} />
       <Pagination />
     </Layout>
   );

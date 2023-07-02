@@ -7,6 +7,7 @@ import logo from "../../../assets/img/logo.png";
 const Navbar = ({ data }) => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [activeMenu, setActiveMenu] = useState("Home");
+  const [mobileMenuStatus, setMobileMenuStatus] = useState(false);
 
   const toggleDropdown = () => {
     setShowDropdown(!showDropdown);
@@ -14,6 +15,10 @@ const Navbar = ({ data }) => {
 
   const changeActive = (link) => {
     setActiveMenu(link);
+  };
+
+  const changeMobileMenu = () => {
+    setMobileMenuStatus(!mobileMenuStatus);
   };
 
   return (
@@ -25,7 +30,7 @@ const Navbar = ({ data }) => {
               <img src={logo} alt="School Logo" />
             </Link>
           </div>
-          <ul className={"menu__items"}>
+          <ul className={mobileMenuStatus ? "menu__items active" : "menu__items"}>
             {data.map((navLink, index) => {
               const dropdownStatus = navLink.hasOwnProperty("subItem");
 
@@ -40,7 +45,7 @@ const Navbar = ({ data }) => {
                       {navLink.subItem.map((dropdownItem, index) => {
                         return (
                           <li key={index}>
-                            <Link to={`/team/${index}`}>{dropdownItem.item}</Link>
+                            <Link to={dropdownItem.link}>{dropdownItem.item}</Link>
                           </li>
                         );
                       })}
@@ -52,11 +57,11 @@ const Navbar = ({ data }) => {
               );
             })}
 
-            <button className="btn__close d-md-none">
+            <button className="btn__close d-md-none" onClick={changeMobileMenu}>
               <AiOutlineClose size={24} />
             </button>
           </ul>
-          <button className="burger d-md-none">
+          <button className="burger d-md-none" onClick={changeMobileMenu}>
             <GiHamburgerMenu size={24} />
           </button>
         </div>

@@ -1,5 +1,5 @@
 import quote from "../../assets/img/bg/01.png";
-import image01 from "../../assets/img/01.jpg";
+
 import SectionTitle from "../SectionTitle/SectionTitle";
 import Slider from "react-slick";
 const TestimonialSingle = ({ data }) => {
