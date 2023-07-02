@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaPhone, FaEnvelopeOpenText } from "react-icons/fa";
 
-const Topbar = () => {
+const Topbar = ({ onClick }) => {
   return (
     <div className="topbar d-none d-md-block">
       <div className="container">
@@ -10,25 +10,25 @@ const Topbar = () => {
             <ul>
               <li>
                 <FaPhone size={18} />
-                <Link to={"/"}>+977&nbsp;9812787046</Link>
+                <Link to={"tel:+977 9812767046"}>+977&nbsp;9812787046</Link>
               </li>
               <li>
                 <FaEnvelopeOpenText size={18} />
-                <Link to={"/"}>connectjhukal@gmail.com</Link>
+                <Link to={"mailto:connectjhukal@gmail.com"}>connectjhukal@gmail.com</Link>
               </li>
             </ul>
           </div>
           <div className="col-6">
             <ul>
               <li>
-                <button type="button" className="btn btn__3">
+                <button type="button" className="btn btn__3" onClick={onClick}>
                   Suggestion
                 </button>
               </li>
               <li>
-                <button type="button" className="btn btn__3">
+                <Link to={"/contact"} type="button" className="btn btn__3">
                   Inquiry
-                </button>
+                </Link>
               </li>
             </ul>
           </div>

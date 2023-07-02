@@ -32,87 +32,67 @@
       }
     }
   }
+
   .menu {
-    &__bar {
+    &__bar,
+    &__items {
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding: 10px 0;
+      justify-content: space-between;
     }
     &__logo {
       width: 120px;
     }
-    &__items {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      gap: 20px;
 
+    &__items {
       li {
-        > a {
-          text-transform: capitalize;
-          color: $blue;
-          &.active {
-            color: $orange;
-          }
-          &:hover {
-            color: $orange;
-          }
-        }
-        &.menu_has_child {
+        padding: 0 15px;
+        &.has_child {
           position: relative;
           z-index: 2;
-          > a {
-            &::after {
-              content: "\f107";
-              font-family: "fontAwesome";
-              display: inline-block;
-              margin-left: 8px;
-              vertical-align: middle;
-            }
-          }
 
-          > ul {
+          .dropdown__items {
             position: absolute;
-            top: 100%;
+            top: 150%;
             left: 0;
             background-color: $white;
-            width: 200px;
-            padding: 15px;
-            opacity: 0;
+            min-width: 250px;
+            // z-index: 4;
+            padding: 15px 5px;
+            border-radius: 0 0 5px 5px;
+            overflow: 0;
             visibility: hidden;
-            @include transition(0.3s);
+            transform: translateY(100px);
+
+            &.active {
+              opacity: 1;
+              visibility: visible;
+              transform: translateY(0);
+            }
 
             li {
               line-height: 2;
-
-              a {
-                &:hover {
-                  color: $orange;
-                }
-              }
             }
           }
 
-          &:hover {
-            ul {
-              opacity: 1;
-              visibility: visible;
-            }
+          &::after {
+            font-family: "fontAwesome";
+            content: "\f107";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
           }
         }
-      }
-    }
 
-    button {
-      border: none;
-      color: $white;
-
-      &.close__btn {
-        position: absolute;
-        top: 50px;
-        right: 50px;
-        color: $orange;
+        a {
+          &:hover {
+            color: $orange;
+          }
+          &.active {
+            color: $orange;
+          }
+        }
       }
     }
   }
@@ -135,51 +115,40 @@
 @media (max-width: 768px) {
   .header {
     background-color: $blue;
+
     .menu {
       &__items {
         position: fixed;
-        flex-direction: column;
         top: 0;
-        background-color: $white;
-        z-index: 999;
         left: 0;
+        width: 300px;
+        max-width: 300px;
         height: 100vh;
-        width: 250px;
-        max-width: 450px;
-        align-items: flex-start;
-        justify-content: center;
-        transform: translateX(-100%);
-        opacity: 0;
-        visibility: hidden;
-        @include transition(0.3s);
         overflow-y: scroll;
-
-        > li {
-          border-bottom: 1px solid #ddd;
-          display: block;
-          width: 100%;
-          padding-left: 30px;
-          padding-bottom: 15px;
-
-          &.menu_has_child {
-            > ul {
+        background-color: $white;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 120px;
+        z-index: 999;
+        gap: 30px;
+        li {
+          &.has_child {
+            .dropdown__items {
               position: initial;
-              padding: 0;
-              display: none;
             }
-
-            &.active {
-              ul {
-                display: block;
-              }
+            &::after {
+              top: 0;
             }
           }
         }
 
-        &.active {
-          opacity: 1;
-          visibility: visible;
-          transform: translateX(0);
+        .btn__close {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 40px;
+          height: 40px;
         }
       }
     }

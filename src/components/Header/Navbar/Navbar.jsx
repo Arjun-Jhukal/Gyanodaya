@@ -1,21 +1,19 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import logo from "../../../assets/img/logo.png";
-import { useState } from "react";
-const Navbar = ({ data }) => {
-  const [activeMenu, setActiveMenu] = useState("Home");
-  const [showMobileMenu, setShowMobileMenu] = useState(false);
-  const [dropStatus, setDropStatus] = useState(false);
 
-  const toggleMobileMenu = () => {
-    setShowMobileMenu(!showMobileMenu);
+const Navbar = ({ data }) => {
+  const [showDropdown, setShowDropdown] = useState(false);
+  const [activeMenu, setActiveMenu] = useState("Home");
+
+  const toggleDropdown = () => {
+    setShowDropdown(!showDropdown);
   };
-  const toggleMenu = (currentActive) => {
-    setActiveMenu(currentActive);
-  };
-  const toggleDropDown = () => {
-    setDropStatus(!dropStatus);
+
+  const changeActive = (link) => {
+    setActiveMenu(link);
   };
 
   return (
@@ -27,24 +25,18 @@ const Navbar = ({ data }) => {
               <img src={logo} alt="School Logo" />
             </Link>
           </div>
-          <ul className={showMobileMenu ? "menu__items active" : "menu__items"}>
+          <ul className={"menu__items"}>
             {data.map((navLink, index) => {
               const dropdownStatus = navLink.hasOwnProperty("subItem");
 
               return (
-                <li key={index} className={dropdownStatus ? "menu_has_child " : ""} onClick={toggleDropDown}>
-                  <Link
-                    className={`${activeMenu === navLink.item ? "active" : ""}`}
-                    onClick={() => {
-                      toggleMenu(navLink.item);
-                    }}
-                    to={navLink.link}
-                  >
+                <li onClick={toggleDropdown} key={index} className={dropdownStatus ? "has_child" : ""}>
+                  <Link onClick={() => changeActive(navLink.item)} className={activeMenu === navLink.item ? "active" : ""} to={navLink.link}>
                     {navLink.item}
                   </Link>
 
                   {dropdownStatus ? (
-                    <ul className="dropdown__items">
+                    <ul className={showDropdown && dropdownStatus ? "dropdown__items active" : "dropdown__items"}>
                       {navLink.subItem.map((dropdownItem, index) => {
                         return (
                           <li key={index}>
@@ -60,11 +52,11 @@ const Navbar = ({ data }) => {
               );
             })}
 
-            <button className="close__btn d-md-none" onClick={toggleMobileMenu}>
+            <button className="btn__close d-md-none">
               <AiOutlineClose size={24} />
             </button>
           </ul>
-          <button className="burger d-md-none" onClick={toggleMobileMenu}>
+          <button className="burger d-md-none">
             <GiHamburgerMenu size={24} />
           </button>
         </div>
