@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import bannerImage from "../../assets/img/05.jpg";
 import SectionTitle from "../SectionTitle/SectionTitle";
+import CountUp from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
 const CounterSingle = ({ data }) => {
   const counterStyle = {
     width: "100%",
@@ -14,6 +16,7 @@ const CounterSingle = ({ data }) => {
   };
 
   const [large, setLarge] = useState(false);
+  const [counterOn, setCounterOn] = useState(false);
 
   useEffect(() => {
     // Check if any value in the data array is >= 1000
@@ -37,17 +40,22 @@ const CounterSingle = ({ data }) => {
         <div className="row">
           {data.map((item, index) => {
             let value = parseInt(item.value);
-            let updatedValue = value;
-            if (value >= 1000) {
-              updatedValue = (value / 1000).toFixed(2);
-            }
 
             return (
               <div className="col-lg-3 col-md-6 col-sm-6 col-12" key={index}>
-                <div className="counter__item">
-                  <h1 className={large ? " lg__heading large" : "lg__heading"}>{updatedValue}</h1>
-                  <span className="sm_heading">{item.title}</span>
-                </div>
+                <ScrollTrigger
+                  onEnter={() => {
+                    setCounterOn(true);
+                  }}
+                  onExit={() => setCounterOn(false)}
+                >
+                  <div className="counter__item">
+                    <h1 className={large ? " lg__heading large" : "lg__heading"}>
+                      {counterOn && <CountUp start={0} end={value} duration={2} delay={0} />}
+                    </h1>
+                    <span className="sm_heading">{item.title}</span>
+                  </div>
+                </ScrollTrigger>
               </div>
             );
           })}

@@ -10,15 +10,15 @@
       "subItem": [
         {
           "item": "Management Team",
-          "link": "/team"
+          "link": "/team/0"
         },
         {
           "item": "Administrative Team",
-          "link": "/team"
+          "link": "/team/1"
         },
         {
           "item": "Teaching Staffs",
-          "link": "/team"
+          "link": "/team/2"
         },
         {
           "item": "Message from CEO",
@@ -335,6 +335,135 @@
     {
       "title": "Privacy Policy",
       "links": ["Privacy Policy", "Terms and Conditions"]
+    }
+  ],
+
+  "management": [
+    {
+      "name": "Ganesh Kunwar",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    }
+  ],
+
+  "administration": [
+    {
+      "name": "Ashish Chand",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    }
+  ],
+
+  "staff": [
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
+    },
+    {
+      "name": "Arjun Jhukal",
+      "position": "Principal",
+      "degree": "Bachelor"
     }
   ]
 }
