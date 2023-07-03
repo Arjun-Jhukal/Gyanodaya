@@ -96,3 +96,33 @@
     transform: translateX(0);
   }
 }
+
+.page__banner {
+  &__content {
+    .page__nav {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 15px;
+
+      a,
+      h1.lg__heading {
+        color: $white;
+      }
+      span {
+        color: $blue;
+      }
+
+      a {
+        &::after {
+          content: "/";
+          display: inline-block;
+          margin-left: 10px;
+        }
+        &:hover {
+          color: $orange;
+        }
+      }
+    }
+  }
+}

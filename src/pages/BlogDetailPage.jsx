@@ -1,10 +1,12 @@
 import Recent from "../components/Aside/Recent";
 import DetailSingle from "../components/DetailSingle/DetailSingle";
 import Layout from "../components/Layout/Layout";
+import PageBanner from "../components/PageBanner/PageBanner";
 
 const ProgramDetailPage = ({ data }) => {
   return (
     <Layout>
+      <PageBanner pageTitle={"Blog Detail"} page={"Blog Detail"} />
       <div className="blog__detail section__gap mb-60">
         <div className="container">
           <div className="row">

@@ -1,9 +1,11 @@
 import Layout from "../components/Layout/Layout";
 import image01 from "../assets/img/10.jpg";
+import PageBanner from "../components/PageBanner/PageBanner";
 const GalleryPage = () => {
   const totalItems = Array.from({ length: 20 });
   return (
     <Layout>
+      <PageBanner pageTitle={"Our Gallery"} page={"Gallery"} />
       <div className="gallery mb-60 section__gap">
         <div className="container">
           <div className="row">
