@@ -15,6 +15,17 @@
     }
   }
 }
+.error__message {
+  text-align: center;
+  p {
+    color: $orange;
+    margin-bottom: 0;
+
+    &.success {
+      color: green;
+    }
+  }
+}
 
 .suggestion {
   background-color: rgba(0, 0, 0, 0.5);
@@ -27,11 +38,11 @@
   align-items: center;
   justify-content: center;
   z-index: 9;
-
   opacity: 0;
   visibility: hidden;
   transform: translateY(-100%);
   @include transition(0.3s);
+  overflow-y: scroll;
 
   &.active {
     opacity: 1;

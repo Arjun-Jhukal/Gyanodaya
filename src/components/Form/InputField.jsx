@@ -1,10 +1,10 @@
-const InputField = ({ label, value, fieldType, inputType, placeholder, onChange, required, reference, Children, rows, cols }) => {
+const InputField = ({ label, value, fieldType, inputType, placeholder, onChange, required, Children, rows, cols }) => {
   switch (fieldType) {
     case "input":
       return (
         <div>
           {label ? <label>{label}</label> : null}
-          <input type={inputType} value={value} placeholder={placeholder} onChange={onChange} ref={reference} />
+          <input type={inputType} value={value} placeholder={placeholder} onChange={onChange} />
         </div>
       );
     case "textarea":
