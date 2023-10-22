@@ -32,5 +32,9 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
     "vite": "^4.3.9"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Arjun-Jhukal/Gyanodaya.git",
+  "author": "<gkunwar059@gmail.com>",
+  "license": "MIT"
 }

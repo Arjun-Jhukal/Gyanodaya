@@ -1,5 +1,5 @@
+import { FaEnvelopeOpenText, FaPhone } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { FaPhone, FaEnvelopeOpenText } from "react-icons/fa";
 
 const Topbar = ({ onClick }) => {
   return (
@@ -14,7 +14,9 @@ const Topbar = ({ onClick }) => {
               </li>
               <li>
                 <FaEnvelopeOpenText size={18} />
-                <Link to={"mailto:connectjhukal@gmail.com"}>connectjhukal@gmail.com</Link>
+                <Link to={"mailto:connectjhukal@gmail.com"}>
+                  connectgvn@gmail.com
+                </Link>
               </li>
             </ul>
           </div>

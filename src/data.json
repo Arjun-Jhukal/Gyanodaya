@@ -132,7 +132,7 @@
       "value": "30"
     },
     {
-      "title": "Fee",
+      "title": "Passout student",
       "value": "10,000"
     }
   ],
@@ -163,25 +163,25 @@
   "testimonials": [
     {
       "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae, obcaecati, enim, error eaque blanditiis nobis voluptas officia iusto mollitia quasi. At aperiam quas dolores nemo impedit, earum doloremque obcaecati",
-      "name": "Arjun Jhukal",
+      "name": "Arjun ",
       "post": "Parent",
       "image": "./src/assets/img/05.jpg"
     },
     {
       "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae, obcaecati, enim, error eaque blanditiis nobis voluptas officia iusto mollitia quasi. At aperiam quas dolores nemo impedit, earum doloremque obcaecati",
-      "name": "Arjun Jhukal",
+      "name": "Karan",
       "post": "Student",
       "image": "./src/assets/img/07.jpg"
     },
     {
       "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae, obcaecati, enim, error eaque blanditiis nobis voluptas officia iusto mollitia quasi. At aperiam quas dolores nemo impedit, earum doloremque obcaecati",
-      "name": "Arjun Jhukal",
+      "name": "abash",
       "post": "Student",
       "image": "./src/assets/img/08.jpg"
     },
     {
       "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae, obcaecati, enim, error eaque blanditiis nobis voluptas officia iusto mollitia quasi. At aperiam quas dolores nemo impedit, earum doloremque obcaecati",
-      "name": "Arjun Jhukal",
+      "name": "jugeda sir",
       "post": "Parent",
       "image": "./src/assets/img/09.jpg"
     }
@@ -345,40 +345,21 @@
       "degree": "Bachelor"
     },
     {
-      "name": "Arjun Jhukal",
+      "name": "ABC",
       "position": "Principal",
       "degree": "Bachelor"
     },
     {
-      "name": "Arjun Jhukal",
+      "name": "abc",
       "position": "Principal",
       "degree": "Bachelor"
     },
     {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
+      "name": "xyz",
       "position": "Principal",
       "degree": "Bachelor"
     }
+ 
   ],
 
   "administration": [
@@ -386,84 +367,17 @@
       "name": "Ashish Chand",
       "position": "Principal",
       "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
     }
+
+   
   ],
 
   "staff": [
     {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
-      "position": "Principal",
-      "degree": "Bachelor"
-    },
-    {
-      "name": "Arjun Jhukal",
+      "name": "Ramesh Sir",
       "position": "Principal",
       "degree": "Bachelor"
     }
+  
   ]
 }

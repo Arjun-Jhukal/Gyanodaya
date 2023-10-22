@@ -1,4 +1,4 @@
-import member01 from "../../assets/img/19.jpg";
+import member01 from "../../assets/img/18.jpg";
 
 const TeamSingle = ({ data }) => {
   return (
