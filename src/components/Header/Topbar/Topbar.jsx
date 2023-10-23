@@ -29,7 +29,7 @@ const Topbar = ({ onClick }) => {
               </li>
               <li>
                 <Link to={"/contact"} type="button" className="btn btn__3">
-                  Inquiry
+                  Apply Online
                 </Link>
               </li>
             </ul>

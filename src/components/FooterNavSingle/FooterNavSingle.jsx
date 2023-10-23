@@ -23,7 +23,7 @@ const FooterNavSingle = ({ data }) => {
               </li>
               <li>
                 <FaLocationArrow />
-                <span>New Baneshwor, Kathmandu 44600, Nepal</span>
+                <span>Prabha, Sanfebagar,Achham, Nepal</span>
               </li>
               <li>
                 <FaEnvelopeOpenText />
@@ -54,7 +54,8 @@ const FooterNavSingle = ({ data }) => {
         <div className="container">
           <div className="text">
             <p>
-              copyright &copy; 2023 Gyanodaya Vidya Niketan.All Rights Reserved
+              copyright &copy; 2023 Prabha Dhamkot Higher Secondary School .All
+              Rights Reserved
             </p>
             <p>
               Designed By:{" "}
