@@ -31,6 +31,17 @@ const Navbar = ({ data }) => {
             </Link>
           </div>
           <ul className={mobileMenuStatus ? "menu__items active" : "menu__items"}>
+            <li>
+              <div className="menu__logo">
+                <Link to={"/"}>
+                  <img src={logo} alt="School Logo" />
+                </Link>
+              </div>
+
+              <button className="btn__close d-md-none" onClick={changeMobileMenu}>
+                <AiOutlineClose size={24} />
+              </button>
+            </li>
             {data.map((navLink, index) => {
               const dropdownStatus = navLink.hasOwnProperty("subItem");
 
@@ -56,10 +67,6 @@ const Navbar = ({ data }) => {
                 </li>
               );
             })}
-
-            <button className="btn__close d-md-none" onClick={changeMobileMenu}>
-              <AiOutlineClose size={24} />
-            </button>
           </ul>
           <button className="burger d-md-none" onClick={changeMobileMenu}>
             <GiHamburgerMenu size={24} />

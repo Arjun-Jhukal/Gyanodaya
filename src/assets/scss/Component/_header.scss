@@ -122,21 +122,22 @@
         position: fixed;
         top: 0;
         left: 0;
-        width: 350px;
-        max-width: 380px;
+        right: 0;
+        width: 100vw;
         height: 100vh;
         overflow-y: scroll;
         background-color: $white;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-start;
-        padding-top: 120px;
+        align-items: center;
+        // padding-top: 120px;
         z-index: 999;
         gap: 30px;
         opacity: 0;
         visibility: hidden;
-        transform: translateX(-100%);
+        transform: translateY(-100%);
         @include transition(0.5s);
+
         li {
           display: block;
           width: 90%;
