@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
-import bannerImage from "../../assets/img/05.jpg";
-import SectionTitle from "../SectionTitle/SectionTitle";
+import { useEffect, useState } from "react";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
+import bannerImage from "../../assets/img/05.jpg";
+import SectionTitle from "../SectionTitle/SectionTitle";
 const CounterSingle = ({ data }) => {
   const counterStyle = {
     width: "100%",
@@ -36,7 +36,10 @@ const CounterSingle = ({ data }) => {
   return (
     <div className="counter" style={counterStyle}>
       <div className="container">
-        <SectionTitle subTitle={"Our Facility"} title={"Why Gyanodaya ?"} />
+        <SectionTitle
+          subTitle={"Our Facility"}
+          title={"Why Prabha Dhamkot ?"}
+        />
         <div className="row">
           {data.map((item, index) => {
             let value = parseInt(item.value);
@@ -50,8 +53,12 @@ const CounterSingle = ({ data }) => {
                   onExit={() => setCounterOn(false)}
                 >
                   <div className="counter__item">
-                    <h1 className={large ? " lg__heading large" : "lg__heading"}>
-                      {counterOn && <CountUp start={0} end={value} duration={2} delay={0} />}
+                    <h1
+                      className={large ? " lg__heading large" : "lg__heading"}
+                    >
+                      {counterOn && (
+                        <CountUp start={0} end={value} duration={2} delay={0} />
+                      )}
                     </h1>
                     <span className="sm_heading">{item.title}</span>
                   </div>
