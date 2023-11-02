@@ -42,6 +42,9 @@
     }
     &__logo {
       width: 120px;
+      img {
+        object-fit: cover;
+      }
     }
 
     &__items {

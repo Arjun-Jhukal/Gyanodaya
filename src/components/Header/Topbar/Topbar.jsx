@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const Topbar = ({ onClick }) => {
   return (
-    <div className="topbar d-none d-md-block">
+    <div className="topbar">
       <div className="container">
-        <div className="row">
-          <div className="col-6">
-            <ul>
+        <div className="row justify-content-center align-items-center ">
+          <div className="col-md-6 col-12">
+            <ul className="justify-content-center">
               <li>
                 <FaPhone size={18} />
                 <Link to={"tel:+977 9812767046"}>+977&nbsp;9812787046</Link>
@@ -18,8 +18,8 @@ const Topbar = ({ onClick }) => {
               </li>
             </ul>
           </div>
-          <div className="col-6">
-            <ul>
+          <div className="col-md-6 col-12">
+            <ul className="justify-content-center">
               <li>
                 <button type="button" className="btn btn__3" onClick={onClick}>
                   Admission
