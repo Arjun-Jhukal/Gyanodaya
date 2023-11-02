@@ -14,9 +14,7 @@ const Topbar = ({ onClick }) => {
               </li>
               <li>
                 <FaEnvelopeOpenText size={18} />
-                <Link to={"mailto:connectjhukal@gmail.com"}>
-                  connectgvn@gmail.com
-                </Link>
+                <Link to={"mailto:connectjhukal@gmail.com"}>connectgvn@gmail.com</Link>
               </li>
             </ul>
           </div>
@@ -24,7 +22,7 @@ const Topbar = ({ onClick }) => {
             <ul>
               <li>
                 <button type="button" className="btn btn__3" onClick={onClick}>
-                  Suggestion
+                  Admission
                 </button>
               </li>
               <li>
