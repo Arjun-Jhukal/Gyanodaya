@@ -186,6 +186,7 @@
       "image": "./src/assets/img/09.jpg"
     }
   ],
+
   "blog": [
     {
       "title": "Empowering Education, Global Opportunities",
@@ -265,6 +266,7 @@
       "list": ["Empowering", "Empowering", "Empowering"]
     }
   ],
+
   "notices": [
     {
       "title": "Inspiring Excellence, Transforming Lives",
@@ -323,6 +325,7 @@
       "brief": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni mollitia exercitationem quis illum minima tempore totam neque dolores corrupti aut voluptates sapiente unde odio fuga, sed harum animi, natus accusantium!"
     }
   ],
+
   "footerNav": [
     {
       "title": "Quick Links",
@@ -359,7 +362,6 @@
       "position": "Principal",
       "degree": "Bachelor"
     }
- 
   ],
 
   "administration": [
@@ -368,8 +370,6 @@
       "position": "Principal",
       "degree": "Bachelor"
     }
-
-   
   ],
 
   "staff": [
@@ -378,6 +378,5 @@
       "position": "Principal",
       "degree": "Bachelor"
     }
-  
   ]
 }

@@ -130,7 +130,6 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        // padding-top: 120px;
         z-index: 999;
         gap: 30px;
         opacity: 0;
@@ -172,6 +171,7 @@
         }
       }
     }
+
     button {
       color: $white;
       border: none;

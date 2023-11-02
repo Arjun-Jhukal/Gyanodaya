@@ -31,7 +31,7 @@ const Navbar = ({ data }) => {
             </Link>
           </div>
           <ul className={mobileMenuStatus ? "menu__items active" : "menu__items"}>
-            <li>
+            <li className="d-md-none">
               <div className="menu__logo">
                 <Link to={"/"}>
                   <img src={logo} alt="School Logo" />
